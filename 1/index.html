@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Lab 1</title>
+        <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=AhhG4ov4Ila5Ib7V1GK2nknr69qkOErc4E4sd02bghFnLNuACKvyYd-SAEPN5O2u&callback=loadMapScenario' async defer></script>
+        <script src="index.js"></script>
+        <script src="education.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="buttons">
+            <button type="button" id="all" onclick="allClick()">All</button>
+            <button type="button" id="elementary" onclick="elementaryClick()">Elementary</button>
+            <button type="button" id="middle" onclick="middleClick()">Middle</button>
+            <button type="button" id="secondary" onclick="secondaryClick()">Secondary</button>
+            <button type="button" id="post-secondary" onclick="postClick()">Post-Secondary</button>
+            <button type="button" id="alternative" onclick="altClick()">Alternative</button>
+            <button type="button" id="adult" onclick="adultClick()">Adult</button>
+            <button type="button" id="section 23" onclick="sectionClick()">Section 23</button>
+        </div>
+        <div id="map"></div>
+        <div id="right">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+                <button type="button" onclick="add()">Add</button>
+            </form>
+            <button id="clear">Clear Directions</button>
+            <div id="directions"></div>
+        </div>
+        <div id="error"></div>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+/*
+* Andy Le
+* 000805099
+* CSS for index page
+* I, Andy Le, 000805099 certify that this material is my original work. No other person's work has been used without due acknowledgement.
+*/
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #C7CEEA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;	
+}
+
+p {
+	font-size: 15px;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 30px;
+	background-color: #FFCCEE;
+}
+
+label, input {
+	margin: 10px;
+}
+
+#enter {
+	grid-column-start: 2;
+}

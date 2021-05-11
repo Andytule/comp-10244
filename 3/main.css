@@ -1,0 +1,57 @@
+.container {
+    width: 0;
+    padding: 0;
+}
+
+#logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.form {
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo {
+    width: 100%;
+}
+
+#study {
+    border: 5px solid #780032;
+}
+
+#learn {
+    border: 5px solid #B20437;
+}
+
+#work {
+    border: 5px solid #F48221;
+}
+
+.disclaimer {
+    border: 5px solid black;
+}
+
+.video-div {
+    border: 5px solid black;
+}
+
+.video {
+    width: 100%;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 400px) {
+    .mobile {
+        display: inline-block;
+    }
+    .desktop {
+        display: none;
+    }
+}

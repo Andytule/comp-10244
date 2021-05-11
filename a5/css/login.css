@@ -1,0 +1,63 @@
+/*
+* Andy Le
+* 000805099
+* CSS for login page
+* I, Andy Le, 000805099 certify that this material is my original work. No other person's work has been used without due acknowledgement.
+*/
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #C7CEEA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	font-size: 20px;
+	margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 10px;
+	background-color: #FFCCEE;
+}
+
+tr, th, td  {
+	text-align: center;
+	border: 1px solid black;
+}
+
+th, td {
+	width: 190px;
+	padding: 5px;
+}
+
+#inputs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;	
+}
+
+#myForm {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	border: 1px solid black;
+}
+
+.myInput {
+	width: 180px;
+	padding: 5px;
+	margin: 5px;
+}
+
+#submit {
+	padding: 5px;
+	grid-column-start: 2;
+}
